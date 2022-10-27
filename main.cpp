@@ -28,7 +28,7 @@ int main() {
     std::cin>>numero; // Prende come input il numero
     if (base>16 || base<2) { // Logical OR
         std::cout<<"Base Invalida"; 
-        exit(1); // Controlla se la base è maggiore di 16 o minore di 0, in caso la condizione si avvera esce dal programma con lo stato di uscita '1'
+        exit(1); // Controlla se la base è maggiore di 16 o minore di 2, in caso la condizione si avvera esce dal programma con lo stato di uscita '1'
     }
     conversione(numero, base);
     return 0;
